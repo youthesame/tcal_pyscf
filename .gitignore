@@ -56,8 +56,12 @@ venv.bak/
 .DS_Store
 Thumbs.db
 
-# Ignore everything except src/tcal.py
+# Ignore everything except specific files
 *
+!.gitignore
+!LICENSE
+!pyproject.toml
+!README.md
 !src/
 src/*
 !src/tcal.py
